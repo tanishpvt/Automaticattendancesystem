@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>logo.png</file>
+  </qresource>
+  <qresource prefix="icon">
+    <file>icon.png</file>
+  </qresource>
+  <qresource prefix="bg">
+    <file>C:/Users/abhis/Downloads/Color Hunt Palette 273466.png</file>
+  </qresource>
+</RCC>

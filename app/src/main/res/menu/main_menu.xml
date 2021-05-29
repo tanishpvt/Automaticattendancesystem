@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="home"
+           />
+        <item
+            android:id="@+id/nav_search"
+            android:title="search"
+            />
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="all_categories"
+            />
+        <item
+            android:id="@+id/nav_add_missing_place"
+            android:title="add_missing_place"
+            />
+    </group>
+
+
+</menu>

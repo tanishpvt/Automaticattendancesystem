@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Automatic attendance system</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="title_activity_send_o_t_p">SendOTP</string>
+    <string name="otp_verification">OTP verification</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_mobile_number">We will send you an One Time Password on this mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="_91">+91</string>
+    <string name="_4579023686">4579023686</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to you</string>
+    <string name="didn_t_receive_the_otp">Didnt receive the OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify">Verify</string>
+    <string name="title_activity_loading_screen">LoadingScreen</string>
+</resources>

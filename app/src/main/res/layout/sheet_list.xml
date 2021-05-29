@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="94dp"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+<TextView
+    android:id="@+id/date_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sep 2021"
+    android:textColor="@color/black"
+    android:textSize="21sp"
+    android:textStyle="bold"/>
+
+</LinearLayout>

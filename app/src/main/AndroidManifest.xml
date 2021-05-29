@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.automaticattendancesystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AutomaticAttendanceSystem">
+        <activity android:name=".OnBoardingScreen.SliderAdapterIntro"
+            tools:ignore="Instantiatable"></activity>
+        <activity android:name=".OnBoardingScreen.ProgressBarAnimation"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".OnBoardingScreen.LoadingScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OnBoardingScreen.intropage" />
+        <activity android:name=".OTP.VerifyOTP" />
+        <activity android:name=".OTP.SendOTP" />
+        <activity android:name=".Authentication.LoginActivity" />
+        <activity android:name=".Authentication.SplashIT" />
+        <activity android:name=".Intermediate.MainScreen"/>
+
+        <activity android:name=".PythonFirebase.RetrivingData" />
+        <activity android:name=".SheetActivity" />
+        <activity android:name=".SheetListActivity" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

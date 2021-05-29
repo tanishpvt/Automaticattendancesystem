@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_Background"
+    tools:context=".Authentication.LoginActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:transitionName="logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LUNA"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/img_logo"
+            android:textSize="39sp"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="@color/textColor"
+            android:transitionName="logo_text"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_bottom"
+        android:transitionName="img_tree"
+        android:layout_below="@+id/layout_top"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img_bottom"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textStyle="bold"
+            android:textSize="39sp"
+            android:textColor="@color/textColor"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's Get Started"
+            android:textSize="19sp"
+            android:textColor="@color/textColor"
+            android:layout_marginStart="30dp"
+          />
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:neumorph_shapeType="pressed"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textEmailAddress"
+               android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:background="@drawable/no_background"
+                android:textCursorDrawable="@drawable/cursor"/>
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:neumorph_shapeType="pressed"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:background="@drawable/no_background"
+                android:textCursorDrawable="@drawable/cursor"/>
+
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <soup.neumorphism.NeumorphButton
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Sign in"
+            android:textColor="@color/textColor"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

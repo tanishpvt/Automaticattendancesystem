@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "615835579154",
+    "firebase_url": "https://updatesapps-1eba7.firebaseio.com",
+    "project_id": "updatesapps-1eba7",
+    "storage_bucket": "updatesapps-1eba7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615835579154:android:74d16ee52c359fe7c479cb",
+        "android_client_info": {
+          "package_name": "com.example.automaticattendancesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615835579154-s509dcn69o8m1d53ph8v0hpsldmse9r3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.automaticattendancesystem",
+            "certificate_hash": "28da3fa0fc29f7fba01c4cc06100b76581e1468e"
+          }
+        },
+        {
+          "client_id": "615835579154-b380ogpoheg2on6shd5p23v7jaafm2ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_ny3nONh5xR8nXSqGKh1BYQ7JF7EvEAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615835579154-b380ogpoheg2on6shd5p23v7jaafm2ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
