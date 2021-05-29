@@ -56,4 +56,11 @@ To not let the students misuse the system as the time of getting in and out are 
 5	If the proposed system is failed due to any reason one can switch to manual mode.
 6	The proposed system can generate monthly attendance files.
 
+3.5 Conclusion and Result
+
+•	We created this system to save time.<br/>
+•	Reduce the false attendance in the classroom.<br/>
+•	Supports manual mode through .
+
+
 
