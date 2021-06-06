@@ -4,7 +4,6 @@ App plus Desktop
 
 
 ![image](https://user-images.githubusercontent.com/66123919/120075555-69b9c180-c0bf-11eb-8c23-98aa8bdfd9f8.png)
-![image](https://user-images.githubusercontent.com/66123919/120075604-a08fd780-c0bf-11eb-8858-cbc207f775f9.png)
 ![lll](https://user-images.githubusercontent.com/66123919/120075648-d1700c80-c0bf-11eb-9068-d80e27e4d307.jpg)
 ![lllllll](https://user-images.githubusercontent.com/66123919/120075649-d2a13980-c0bf-11eb-8c3c-07ad4ae4c13b.jpg)
 ![LL](https://user-images.githubusercontent.com/66123919/120075650-d339d000-c0bf-11eb-9c4c-df3806489304.jpg)
