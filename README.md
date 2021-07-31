@@ -1,4 +1,4 @@
-# Automaticattendancesystem
+# Automatic attendance system
 
 App plus Desktop
 
